@@ -1,0 +1,117 @@
+body {
+    background: linear-gradient(to right, #1a1a1a, #333333); /* Dark Background Gradient */
+    color: #ffffff; /* White Text */
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #333333, #555555); /* Dark Gray Gradient */
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff; /* White */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #ff0000; /* Red on Hover */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff; /* White */
+}
+
+.container-fluid {
+    background: linear-gradient(to right, #333333, #555555); /* Dark Gray Gradient */
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(to right, #282828, #444444); /* Darker Gray Gradient */
+    color: #ffffff; /* White */
+    margin-top: 20px;
+    border-color: #333333; /* Dark Gray */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-label {
+    margin-right: 10px;
+    margin-top: 4px;
+    color: #ffffff; /* White */
+}
+
+.form-control {
+    flex: 1;
+    background: linear-gradient(to right, #333333, #555555); /* Dark Gray Gradient */
+    color: #ffffff; /* White */
+    width: min-content;
+}
+
+.form-control:focus {
+    border-color: #ff0000 !important; /* Red on Focus */
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25) !important; /* Adjusted shadow color */
+}
+
+.btn-custom {
+    background-color: #8B0000 !important; /* Dark Red */
+    border-color: #8B0000 !important; /* Dark Red */
+    color: #ffffff; /* White */
+    transition: 0.3s;
+    margin-left: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #a80000 !important; /* Slightly Darker Red */
+    border-color: #a80000 !important; /* Slightly Darker Red */
+    color: #ffffff; /* White */
+}
+
+
+.equal-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: 48%; /* Adjust as needed */
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+.list-group-item{
+    background-color: transparent !important; /* Set background to transparent on hover */
+    
+}
+@media (max-width: 767px) {
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .equal-columns {
+        display: block;
+    }
+}
