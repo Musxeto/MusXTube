@@ -16,18 +16,18 @@ Ensure you have the following installed on your system:
 Install the required Python packages using the following command:
 ```bash
 pip install Flask pytube
-
+```
 
 # How to Run
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/musxeto/MusXTube.git
     ```
 
 2. **Navigate to the project directory:**
     ```bash
-    cd your-repository
+    cd MusXTube
     ```
 
 3. **Run the Flask application:**
